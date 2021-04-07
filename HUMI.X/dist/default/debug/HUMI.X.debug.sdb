@@ -1,0 +1,197 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18854 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"76 C:\Proyectos\HUMI\HUMI.X\main.c
+[v _reg_confs reg_confs `(v  1 e 1 0 ]
+"148
+[v _timer_minuto timer_minuto `(v  1 e 1 0 ]
+"164
+[v _main main `(v  1 e 1 0 ]
+"65 C:\Proyectos\HUMI\HUMI.X/user.h
+[v _system_state system_state `us  1 e 2 0 ]
+"66
+[v _segundos segundos `us  1 e 2 0 ]
+"67
+[v _milisegundos milisegundos `us  1 e 2 0 ]
+"68
+[v _minutos minutos `us  1 e 2 0 ]
+"352 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16F1xxxx_DFP/1.5.133/xc8\pic\include\proc\pic16f18854.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"385
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+[s S148 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"402
+[u S157 . 1 `S148 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES157  1 e 1 @12 ]
+"447
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"509
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"592
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"654
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"716
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"778
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+[s S127 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"795
+[u S136 . 1 `S127 1 . 1 0 ]
+[v _LATAbits LATAbits `VES136  1 e 1 @22 ]
+"840
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"902
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+[s S106 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"919
+[u S115 . 1 `S106 1 . 1 0 ]
+[v _LATCbits LATCbits `VES115  1 e 1 @24 ]
+"21046
+[v _PIR0 PIR0 `VEuc  1 e 1 @1804 ]
+"21079
+[v _PIR1 PIR1 `VEuc  1 e 1 @1805 ]
+"21118
+[v _PIR2 PIR2 `VEuc  1 e 1 @1806 ]
+"21151
+[v _PIR3 PIR3 `VEuc  1 e 1 @1807 ]
+"21201
+[v _PIR4 PIR4 `VEuc  1 e 1 @1808 ]
+"21251
+[v _PIR5 PIR5 `VEuc  1 e 1 @1809 ]
+"21308
+[v _PIR6 PIR6 `VEuc  1 e 1 @1810 ]
+"21352
+[v _PIR7 PIR7 `VEuc  1 e 1 @1811 ]
+"21418
+[v _PIR8 PIR8 `VEuc  1 e 1 @1812 ]
+"21468
+[v _PIE0 PIE0 `VEuc  1 e 1 @1814 ]
+"21501
+[v _PIE1 PIE1 `VEuc  1 e 1 @1815 ]
+"21540
+[v _PIE2 PIE2 `VEuc  1 e 1 @1816 ]
+"21573
+[v _PIE3 PIE3 `VEuc  1 e 1 @1817 ]
+"21623
+[v _PIE4 PIE4 `VEuc  1 e 1 @1818 ]
+"21673
+[v _PIE5 PIE5 `VEuc  1 e 1 @1819 ]
+"21730
+[v _PIE6 PIE6 `VEuc  1 e 1 @1820 ]
+"21774
+[v _PIE7 PIE7 `VEuc  1 e 1 @1821 ]
+"21840
+[v _PIE8 PIE8 `VEuc  1 e 1 @1822 ]
+"21890
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"21947
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"22018
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22063
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22119
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22170
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+[s S26 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nRI 1 0 :1:2 
+`uc 1 nRMCLR 1 0 :1:3 
+`uc 1 nRWDT 1 0 :1:4 
+`uc 1 nWDTWV 1 0 :1:5 
+`uc 1 STKUNF 1 0 :1:6 
+`uc 1 STKOVF 1 0 :1:7 
+]
+"22813
+[u S35 . 1 `S26 1 . 1 0 ]
+[v _PCON0bits PCON0bits `VES35  1 e 1 @2067 ]
+"23241
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23381
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23478
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23587
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"32728
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"32790
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"32852
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"32914
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"32976
+[v _INLVLA INLVLA `VEuc  1 e 1 @3900 ]
+"33348
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33410
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33472
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33534
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"33596
+[v _INLVLB INLVLB `VEuc  1 e 1 @3911 ]
+"33968
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34030
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34092
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34154
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34216
+[v _INLVLC INLVLC `VEuc  1 e 1 @3922 ]
+"164 C:\Proyectos\HUMI\HUMI.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"253
+} 0
+"148
+[v _timer_minuto timer_minuto `(v  1 e 1 0 ]
+{
+[v timer_minuto@retardo retardo `us  1 p 2 0 ]
+"161
+} 0
+"76
+[v _reg_confs reg_confs `(v  1 e 1 0 ]
+{
+"143
+} 0

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [HUMI.PrjPcb]
+   Generated File[HUMI.TXT]
+   Generated File[HUMI.LDP]
+   Generated File[HUMI.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 09:05:30 On 3/3/2021

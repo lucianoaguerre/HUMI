@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q3-2
+Removed Pin From Net: NetName=GND Pin=Q4-2
+Removed Pin From Net: NetName=NetQ1_1 Pin=R2-2
+Removed Pin From Net: NetName=NetQ2_1 Pin=R3-2
+Removed Pin From Net: NetName=NetQ3_1 Pin=R4-2
+Removed Pin From Net: NetName=NetQ4_1 Pin=R5-2
+Removed Pin From Net: NetName=NetQ1_3 Pin=RELE1-1
+Removed Pin From Net: NetName=NetQ2_3 Pin=RELE2-1
+Removed Pin From Net: NetName=NetQ3_3 Pin=RELE3-1
+Removed Pin From Net: NetName=NetQ4_3 Pin=RELE4-1
+Change Component Footprint: Designator=Q1 Old Footprint=NPN.SMD.SOT23 New Footprint=TRA-IRFD110
+Change Component Footprint: Designator=Q2 Old Footprint=NPN.SMD.SOT23 New Footprint=TRA-IRFD110
+Change Component Footprint: Designator=Q3 Old Footprint=NPN.SMD.SOT23 New Footprint=TRA-IRFD110
+Change Component Footprint: Designator=Q4 Old Footprint=NPN.SMD.SOT23 New Footprint=TRA-IRFD110
+Change Component Comment : Designator=Q1 Old Comment=BC817-40 TRA.NPN 45V0.5A 0.25W SOT23 New Comment=Transistor MOSFET N IRFD110
+Change Component Comment : Designator=Q2 Old Comment=BC817-40 TRA.NPN 45V0.5A 0.25W SOT23 New Comment=Transistor MOSFET N IRFD110
+Change Component Comment : Designator=Q3 Old Comment=BC817-40 TRA.NPN 45V0.5A 0.25W SOT23 New Comment=Transistor MOSFET N IRFD110
+Change Component Comment : Designator=Q4 Old Comment=BC817-40 TRA.NPN 45V0.5A 0.25W SOT23 New Comment=Transistor MOSFET N IRFD110
+Change component parameters: Designator = "Q1"; Footprint = "TRA-IRFD110"; UniqueID = "\TNUUXGGG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.TRA.0003"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2"; Footprint = "TRA-IRFD110"; UniqueID = "\FLIODITE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.TRA.0003"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q3"; Footprint = "TRA-IRFD110"; UniqueID = "\QNXVSDAR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.TRA.0003"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q4"; Footprint = "TRA-IRFD110"; UniqueID = "\ESAGPGNU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "COD. ELEMON"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "COD. FV"; Value = "CE.TRA.0003"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q1-4
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-4
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-2
+Added Pin To Net: NetName=GND Pin=Q3-4
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-2
+Added Pin To Net: NetName=GND Pin=Q4-4
+Added Pin To Net: NetName=NetQ1_3 Pin=R2-2
+Added Pin To Net: NetName=NetQ2_3 Pin=R3-2
+Added Pin To Net: NetName=NetQ3_3 Pin=R4-2
+Added Pin To Net: NetName=NetQ4_3 Pin=R5-2
+Added Pin To Net: NetName=NetQ1_1 Pin=RELE1-1
+Added Pin To Net: NetName=NetQ2_1 Pin=RELE2-1
+Added Pin To Net: NetName=NetQ3_1 Pin=RELE3-1
+Added Pin To Net: NetName=NetQ4_1 Pin=RELE4-1

@@ -1,0 +1,48 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"6 configuration_bits.c
+[p x FEXTOSC  =  OFF     ]
+"7
+[p x RSTOSC  =  HFINT32     ]
+"8
+[p x CLKOUTEN  =  OFF     ]
+"9
+[p x CSWEN  =  ON     ]
+"10
+[p x FCMEN  =  ON     ]
+"13
+[p x MCLRE  =  ON     ]
+"14
+[p x PWRTE  =  ON     ]
+"15
+[p x LPBOREN  =  ON     ]
+"16
+[p x BOREN  =  OFF     ]
+"17
+[p x BORV  =  LO     ]
+"18
+[p x ZCD  =  OFF     ]
+"19
+[p x PPS1WAY  =  ON     ]
+"20
+[p x STVREN  =  ON     ]
+"21
+[p x DEBUG  =  OFF     ]
+"24
+[p x WDTCPS  =  WDTCPS_31     ]
+"25
+[p x WDTE  =  OFF     ]
+"26
+[p x WDTCWS  =  WDTCWS_7     ]
+"27
+[p x WDTCCS  =  SC     ]
+"30
+[p x WRT  =  OFF     ]
+"31
+[p x SCANE  =  available     ]
+"32
+[p x LVP  =  ON     ]
+"35
+[p x CP  =  OFF     ]
+"36
+[; ;configuration_bits.c: 36: 
+[p x CPD  =  OFF     ]
